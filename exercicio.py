@@ -5,7 +5,7 @@ if maior_de_idade.isnumeric():
     maior_de_idade = int(maior_de_idade) >= 18
 else:
     maior_de_idade = False
-    print("voce não pode entrar")
+    print("Você não pode entrar")
 altura_metros = float(input("digite sua altura em metros: "))
 if altura_metros >= 1.85:
     print("ta alto em bixao")
