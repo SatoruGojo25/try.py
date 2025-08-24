@@ -14,3 +14,4 @@ if dinero >= 2000:
         print("então vaza, que aqui é só pra quem quer ganhar!")
 if dinero <= 1800:
    print('ta mais duro que pau de tarado!\n caso precise de money prostitue!')
+print(f'seu saldo é de: {dinero:,.2f}')
