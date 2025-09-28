@@ -26,12 +26,16 @@ elif ano_nascimento <= 1962:
     print('ta idoso demais já ')
 if usuario == '' and idade == '':
     print('voce não sabe digitar ze!')
+if ' ' in usuario:
+    print('seu nome tem espaços')
+else:
+    print('seu nome nao tem espaços.')
 
 print(f'{usuario} seu nome ao contrario é: {usuario[::-1]}')##Aqui ele inverte o nome
 print(f'{usuario} tem {len(usuario)} letras no nome ')##Aqui ele conta quantas letras tem no nome
 print(f'{usuario} nasceu em {ano_nascimento}')##Aqui ele calcula o ano de nascimento
 print(f'a primeira letra do seu nome é:  {usuario[0]}')##Aqui ele pega a primeira letra do nome
 print(f'a ultima letra do seu nome é:  {usuario[-1]}')##Aqui ele pega a ultima letra do nome
-print(f' seu nome tem espaços? { " " in usuario }')##Aqui ele verifica se tem espaços no nome
+
 
 ###O codigo acima é o exercicio para praticar fatiamento, funçao len e operadores relacionais e logicos
